@@ -1,0 +1,16 @@
+{
+  "name": "@njs-five/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@njs-five/eslint-commons": "*",
+    "@njs-five/tsconfig-commons": "*"
+  }
+}

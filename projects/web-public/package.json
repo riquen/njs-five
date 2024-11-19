@@ -1,0 +1,29 @@
+{
+  "name": "@njs-five/web-public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@njs-five/design-system": "*",
+    "@njs-five/utils": "*",
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "6.1.13"
+  },
+  "devDependencies": {
+    "@njs-five/eslint-commons": "*",
+    "@njs-five/tsconfig-commons": "*",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^10.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@njs-five/design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@njs-five/eslint-commons": "*",
+    "@njs-five/tsconfig-commons": "*"
+  }
+}
