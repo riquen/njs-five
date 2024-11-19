@@ -4,18 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "echo 'Not necessary'"
+    "lint": "echo 'Not implemented'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "files": [
-    "eslint.config.js"
+    "base.js"
   ],
   "devDependencies": {
-    "eslint-config-next": "15.0.3",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-prettier": "5.2.1",
-    "eslint-plugin-react": "7.37.2"
+    "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.29.4"
   }
 }
