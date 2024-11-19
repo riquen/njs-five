@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "echo 'Not implemented'"
+    "lint": "echo 'Not implemented'",
+    "test": "echo 'Not implemented'"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "eslint-config-next": "12.1.5",
     "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-jest": "26.1.5",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.29.4"
   }

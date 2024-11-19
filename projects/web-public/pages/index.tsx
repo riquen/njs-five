@@ -1,9 +1,3 @@
-import { Text } from "@njs-five/design-system/components/Text";
+import { HomeScreen } from "../src/screens/HomeScreen/HomeScreen";
 
-export default function HomeScreen() {
-  return (
-    <main>
-      <Text tag="h1">Home</Text>
-    </main>
-  );
-}
+export default HomeScreen;

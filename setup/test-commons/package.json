@@ -1,0 +1,27 @@
+{
+  "name": "@njs-five/test-commons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "base.ts"
+  ],
+  "devDependencies": {
+    "@babel/core": "7.17.10",
+    "@babel/preset-env": "7.17.10",
+    "@babel/preset-react": "7.16.7",
+    "@babel/preset-typescript": "7.16.7",
+    "@testing-library/react": "13.1.1",
+    "babel-jest": "28.0.3",
+    "jest": "27.0.0",
+    "jest-styled-components": "7.0.8",
+    "ts-node": "10.7.0"
+  },
+  "scripts": {
+    "lint": "echo 'Not implemented'",
+    "test": "echo 'Not implemented'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

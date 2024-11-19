@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint \"./**/*.{ts,tsx}\" --fix"
+    "lint": "eslint \"./**/*.{ts,tsx}\" --fix",
+    "test": "jest",
+    "test:update-snapshot": "jest -u"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "@njs-five/eslint-commons": "*",
+    "@njs-five/test-commons": "*",
     "@njs-five/tsconfig-commons": "*"
   }
 }

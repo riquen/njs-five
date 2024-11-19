@@ -8,11 +8,13 @@
   },
   "scripts": {
     "lint": "npm run lint --workspaces",
+    "test": "npm run test --workspaces",
     "dev:web-public": "npm run dev --workspace=@njs-five/web-public",
     "build:web-public": "npm run build --workspace=@njs-five/web-public",
     "start:web-public": "npm run start --workspace=@njs-five/web-public"
   },
   "devDependencies": {
+    "@types/jest": "27.4.1",
     "@types/node": "22.9.0",
     "@types/react": "18.3.12",
     "@types/styled-components": "5.1.34",

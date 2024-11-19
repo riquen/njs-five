@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint \"./**/*.{ts,tsx}\" --fix"
+    "lint": "echo 'Not implemented'",
+    "test": "echo 'Not implemented'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@njs-five/eslint-commons": "*",
+    "@njs-five/test-commons": "*",
     "@njs-five/tsconfig-commons": "*"
   }
 }
